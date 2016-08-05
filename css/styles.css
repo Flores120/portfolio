@@ -1,10 +1,9 @@
 
 img { border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  float: right;
   margin: auto;
   height: 400px;
-  width: 400px;
+  width: 500px;
   display: block;
 }
 p {
@@ -14,4 +13,21 @@ span { font-family: fantasy;
 }
 .jumbotron{
   background-color: #ff9966;
+}
+.jumbotron {
+  border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+body {
+  font-size: 20px;
+}
+header { border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+ol { border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+
 }
