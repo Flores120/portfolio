@@ -1,28 +1,17 @@
-h1 {
-  color: #ff884d;
-  text-align: justify;
-  text-shadow: black;
-}
-ul {
-  margin: 5px 3px;
-  background-color: #ff884d;
-  padding: 14px 15px;
+
+img { border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: right;
+  margin: auto;
+  height: 400px;
+  width: 400px;
   display: block;
-  font-size: 16px;
-  cursor: pointer;
-  color: white;
-  box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.5);
-  text-align: left;
 }
-li a:hover {
-  padding: 14px 15px;
-  background-color: gray;
-  color: white;
-  font-size: 16px
+p {
+  font-family: sans-serif;
 }
-ul {
-  list-style: none;
+span { font-family: fantasy;
 }
-body {
-  background-color: gray;
+.jumbotron{
+  background-color: #ff9966;
 }
