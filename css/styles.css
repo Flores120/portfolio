@@ -8,6 +8,7 @@ img {
   height: 400px;
   width: 500px;
   display: block;
+  float: lefts;
 }
 p {
   font-family: sans-serif;
