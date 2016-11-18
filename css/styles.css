@@ -1,6 +1,55 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul {
   list-style-type: none;
 }
+.container {
+  background-color: #f2f2f2;
+  height: 1600px;
+}
+.navHeader  {
+  padding: 15px;
+  background-color: #6b717a;
+  list-style-type: none;
+  font-size: 20px;
+}
+.navHeader a {
+  margin-left: 20px;
+  color: white;
+}
+.navHeader:hover a {
+  color: white;
+  opacity: .8;
+}
+.content {
+}
+.title1 {
+  font-size: 40px;
+}
+.navBody li {
+  font-size: 16px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+.header {
+  overflow: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#name1 {
+  margin-left: 10px;
+  margin-right: 450px;
+  float: left;
+}
+#name {
+  font-size: 50px;
+}
+
 #img {
-  width: 1000px;
+  float: left;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
