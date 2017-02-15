@@ -10,19 +10,17 @@
 }
 .gallery-tile {
   height: 100%;
-  // background-color: rgba(0, 0, 0, .9);
+  a {
+    text-shadow: 2px 1px black;
+  }
 }
 .gallery {
   margin: auto;
   width: 100%;
   height: 200px;
   transition: all .6s;
-  animation-name: paralax;
-  a {
-    color: white;
-    text-shadow: 2px 1px black;
-  }
   &:hover {
+    width: 85%;
   }
 }
 .voyager {
