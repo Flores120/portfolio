@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-
 }
 @media screen and (max-width: 400px){
   max-width: 400px;
@@ -49,4 +48,7 @@ ul {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  img {
+    border: solid white 3px;
+  }
 }

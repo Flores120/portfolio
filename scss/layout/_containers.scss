@@ -1,6 +1,5 @@
 .container {
   padding: 1em;
-  margin-top: 75px;
 }
 .head {
   margin-top: 20px;
@@ -8,10 +7,20 @@
 .content {
   margin-top: 2em;
 }
+.cover-photo {
+  margin-top: 70px;
+  padding: 2em;
+  color: white;
+  text-shadow: 1px 2px black;
+  width: 100%;
+  background: url("../img/WEB.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .gallery-tile {
   height: 100%;
   a {
-    text-shadow: 2px 1px black;
+    color: black;
   }
 }
 .gallery {
@@ -51,6 +60,7 @@ img {
 }
 #projects {
   text-align: center;
+  color: #ff353f;
 }
 @media screen and (max-width: 550px) {
   .head {
@@ -60,8 +70,11 @@ img {
     width: 100%;
     height: 100%;
     img {
+      display: block;
+      margin: auto;
       width: 100%;
-      height: 100%;
+      max-width: 400px;
+      height: 300px;
       border-radius: 0;
     }
   }
