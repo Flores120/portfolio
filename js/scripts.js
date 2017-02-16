@@ -1,1 +1,6 @@
+function daymode() {
 
+}
+function nightmode() {
+
+}

@@ -104,6 +104,20 @@ img {
   text-align: center;
   color: #ff353f; }
 
+.buttons {
+  float: right; }
+  .buttons #day-mode {
+    background: white;
+    color: #4286f4; }
+  .buttons #night-mode {
+    background: #142634;
+    color: white; }
+  .buttons button {
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none; }
+
 @media screen and (max-width: 550px) {
   .head {
     margin-top: 10px; }
