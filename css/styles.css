@@ -1,5 +1,7 @@
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  background: #07273d;
+  color: white; }
 
 @media screen and (max-width: 400px) {
   max-width: 400px; }
@@ -73,9 +75,21 @@ ul {
   margin: auto;
   width: 100%;
   height: 200px;
-  transition: all .6s; }
+  transition: all .6s;
+  background-position: center;
+  background-size: cover; }
   .gallery:hover {
-    width: 85%; }
+    width: 90%; }
+    .gallery:hover .triangle {
+      display: block; }
+
+.triangle {
+  display: none;
+  width: 0;
+  height: 0;
+  border-top: 100px solid rgba(255, 255, 255, 0.8);
+  border-right: 100px solid transparent;
+  transition-delay: .5s; }
 
 .voyager {
   background: url("../img/voyager.png");
@@ -94,6 +108,11 @@ ul {
 
 .awild {
   background: url("../img/arctic-wild.png");
+  background-position: center;
+  background-size: cover; }
+
+.sale {
+  background: url("../img/nmd.png");
   background-position: center;
   background-size: cover; }
 
@@ -117,6 +136,24 @@ img {
     font-size: 14px;
     outline: none;
     border: none; }
+
+footer {
+  height: 100%;
+  width: 100%;
+  background: #212223;
+  color: white; }
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#media {
+  margin: 2em; }
+  #media img {
+    width: 50px; }
+    #media img:hover {
+      cursor: pointer; }
 
 @media screen and (max-width: 550px) {
   .head {

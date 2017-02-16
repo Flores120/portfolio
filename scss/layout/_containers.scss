@@ -28,31 +28,42 @@
   width: 100%;
   height: 200px;
   transition: all .6s;
+  background-position: center;
+  background-size: cover;
   &:hover {
-    width: 85%;
+    width: 90%;
+    .triangle {
+      display: block;
+    }
   }
+}
+.triangle {
+  display: none;
+  width: 0;
+	height: 0;
+	border-top: 100px solid rgba(255, 255, 255, .8);
+	border-right: 100px solid transparent;
+  transition-delay: .5s;
 }
 .voyager {
   background: url("../img/voyager.png");
-  background-position: center;
-  background-size: cover;
+  @include background;
 }
 .qpage {
   background: url("../img/quiz-page.png");
-  background-position: center;
-  background-size: cover;
+  @include background;
 }
-
 .google {
   background: url("../img/google.png");
-  background-position: center;
-  background-size: cover;
+  @include background;
 }
-
 .awild {
   background: url("../img/arctic-wild.png");
-  background-position: center;
-  background-size: cover;
+  @include background;
+}
+.sale {
+  background: url("../img/nmd.png");
+  @include background;
 }
 
 img {
@@ -77,6 +88,27 @@ img {
     font-size: 14px;
     outline: none;
     border: none;
+  }
+}
+footer {
+  height: 100%;
+  width: 100%;
+  background: #212223;
+  color: white;
+}
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#media {
+  margin: 2em;
+  img {
+    width: 50px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 @media screen and (max-width: 550px) {
