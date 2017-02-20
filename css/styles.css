@@ -1,7 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  background: #07273d;
-  color: white; }
+  font-family: 'Roboto', sans-serif; }
 
 @media screen and (max-width: 400px) {
   max-width: 400px; }
@@ -82,6 +80,11 @@ ul {
     width: 90%; }
     .gallery:hover .triangle {
       display: block; }
+      .gallery:hover .triangle img {
+        position: relative;
+        top: -85px;
+        left: 15px;
+        width: 35px; }
 
 .triangle {
   display: none;
@@ -113,6 +116,11 @@ ul {
 
 .sale {
   background: url("../img/nmd.png");
+  background-position: center;
+  background-size: cover; }
+
+.cSound {
+  background: url("../img/connectedsounds.png");
   background-position: center;
   background-size: cover; }
 

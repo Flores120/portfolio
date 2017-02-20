@@ -34,6 +34,12 @@
     width: 90%;
     .triangle {
       display: block;
+      img {
+        position: relative;
+        top: -85px;
+        left: 15px;
+        width: 35px;
+      }
     }
   }
 }
@@ -63,6 +69,10 @@
 }
 .sale {
   background: url("../img/nmd.png");
+  @include background;
+}
+.cSound {
+  background: url("../img/connectedsounds.png");
   @include background;
 }
 
