@@ -132,7 +132,10 @@ img {
   color: #142634; }
 
 .buttons {
-  float: right; }
+  float: right;
+  position: relative;
+  top: -26px;
+  margin-bottom: 40px; }
   .buttons #day-mode {
     background: white;
     color: #4286f4; }
@@ -188,6 +191,7 @@ footer {
       display: none; }
 
   .buttons {
+    margin-top: 20px;
     float: none;
     width: 100%; }
     .buttons button {
