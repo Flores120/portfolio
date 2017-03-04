@@ -177,5 +177,20 @@ footer {
       max-width: 400px;
       height: 300px;
       border-radius: 0; } }
+@media screen and (max-width: 400px) {
+  .cover-photo {
+    margin-top: 80px; }
+
+  .navHeader {
+    height: 110px;
+    background: white; }
+    .navHeader a {
+      display: none; }
+
+  .buttons {
+    float: none;
+    width: 100%; }
+    .buttons button {
+      width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

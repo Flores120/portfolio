@@ -138,7 +138,25 @@ footer {
     }
   }
 }
-
+ @media screen and (max-width: 400px) {
+   .cover-photo {
+     margin-top: 80px;
+   }
+   .navHeader {
+     height: 110px;
+     background: white;
+     a {
+       display: none;
+     }
+   }
+   .buttons {
+     float: none;
+     width: 100%;
+    button {
+      width: 100%;
+    }
+  }
+ }
 
 @media screen and (min-width: 550px) {
 
