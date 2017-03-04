@@ -181,6 +181,9 @@ footer {
       height: 300px;
       border-radius: 0; } }
 @media screen and (max-width: 400px) {
+  body {
+    max-width: 400px; }
+
   .cover-photo {
     margin-top: 80px; }
 

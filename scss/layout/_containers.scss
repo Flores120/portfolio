@@ -141,6 +141,9 @@ footer {
   }
 }
  @media screen and (max-width: 400px) {
+   body {
+     max-width: 400px;
+   }
    .cover-photo {
      margin-top: 80px;
    }
