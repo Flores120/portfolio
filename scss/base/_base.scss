@@ -12,7 +12,7 @@ ul {
   padding: 15px;
   width: 100%;
   z-index: 10;
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(255, 255, 255, .9);
   height: 70px;
   position: fixed;
   top: 0;
@@ -21,11 +21,11 @@ ul {
 }
 .navHeader a {
   margin-left: 20px;
-  color: white;
+  color: #142634;
 }
 .navHeader a:hover {
-  color: white;
   opacity: .8;
+  text-decoration: none;
 }
 .content {
 }

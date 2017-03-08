@@ -32,6 +32,7 @@
   background-size: cover;
   &:hover {
     width: 90%;
+    cursor: pointer;
     .triangle {
       display: block;
       img {
@@ -88,7 +89,7 @@ img {
     top: -26px;
     margin-bottom: 40px;
   #day-mode {
-    background: white;
+    background: #e5e5e5;
     color: #4286f4;
   }
   #night-mode {

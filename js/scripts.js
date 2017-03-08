@@ -1,4 +1,5 @@
 function nightmode() {
+  document.getElementById('projects').style.color = "white";
   document.body.style.background = "#142634";
   document.body.style.color = "white";
   document.getElementsByTagName('h3').style.color = "white";

@@ -10,7 +10,7 @@ ul {
   padding: 15px;
   width: 100%;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   height: 70px;
   position: fixed;
   top: 0;
@@ -19,11 +19,11 @@ ul {
 
 .navHeader a {
   margin-left: 20px;
-  color: white; }
+  color: #142634; }
 
 .navHeader a:hover {
-  color: white;
-  opacity: .8; }
+  opacity: .8;
+  text-decoration: none; }
 
 .navBody li {
   font-size: 16px;
@@ -77,7 +77,8 @@ ul {
   background-position: center;
   background-size: cover; }
   .gallery:hover {
-    width: 90%; }
+    width: 90%;
+    cursor: pointer; }
     .gallery:hover .triangle {
       display: block; }
       .gallery:hover .triangle img {
@@ -137,7 +138,7 @@ img {
   top: -26px;
   margin-bottom: 40px; }
   .buttons #day-mode {
-    background: white;
+    background: #e5e5e5;
     color: #4286f4; }
   .buttons #night-mode {
     background: #142634;
